@@ -41,12 +41,7 @@ namespace GeneralProject
         private void highscores_btn_Click(object sender, EventArgs e)
         {
             HighScores highScores = new HighScores();
-            Form2 form2 = new Form2();
             s.Stop();
-
-            form2.Show();
-
-
             highScores.Show();
         }
     }
